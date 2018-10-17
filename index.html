@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <script src="js/MenuBar.js"> </script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <div id="draggableDiv" style="-webkit-app-region: drag">
+        <p class="menubarTitle">Melee: Connect</p>
+        <button class="menubarButton" id="close-btn" onclick="closeWindow()">X</button>        
+        <button class="menubarButton" id="max-btn" onclick="maximizeWindow()">□</button>
+        <button class="menubarButton" id="min-btn" onclick="minimizeWindow()">-</button>
+        
+    </div>
+</head>
+<body background = "Images/background.png" id="basicBody">
+    <p class="username">Username</p>
+    <p class="ranktoptext">Test Rank 0/250</p>
+    <div id="rankProgressBarDiv">
+        <div id="rankProgressBar"></div>
+    </div>
+    <img src="Images/logo.png" class="img-center">
+    <div id="gameModeOptions">
+        <button class="gameModeButton">Ranked Match</button>
+        <button class="gameModeButton">Friendly Match</button>
+        <button class="gameModeButton">Social</button>
+        <button class="gameModeButton">Options</button>
+        <button class="gameModeButton">Log Out</button>
+    </div>
+    <div id="newsSection">
+        <p class="title">Test News</p>
+        <p class="paragraph">The year is 20XX. Everyone plays Fox at TAS levels of perfection. Because of this, the winner of a match depends solely on port priority. The RPS metagame has evolved to ridiculous levels due to it being the only remaining factor to decide matches. Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32. Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+    </div>
+    <script>
+        require('./index.js');
+    </script>
+</body>
+</html>

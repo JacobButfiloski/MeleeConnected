@@ -1,0 +1,14 @@
+{
+    "name": "melee-connected",
+    "version": "1.0.0",
+    "main": "main.js",
+    "devDependencies": {
+        "electron": "^2.0.3"
+    },
+    "scripts": {
+        "start": "electron ."
+    },
+    "dependencies": {
+        
+    }
+}

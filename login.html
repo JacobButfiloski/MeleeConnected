@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <script src="js/MenuBar.js"> </script>
+    <script src="js/Login.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <div id="draggableDiv" style="-webkit-app-region: drag">
+        <p class="menubarTitle">Melee: Connect</p>
+        <button class="menubarButton" id="close-btn" onclick="closeWindow()">X</button>        
+        <button class="menubarButton" id="max-btn" onclick="maximizeWindow()">□</button>
+        <button class="menubarButton" id="min-btn" onclick="minimizeWindow()">-</button>
+        
+    </div>
+</head>
+<body background = "Images/background.png" id="basicBody">
+    <img id="loginIcon" src="Images/logo.png">
+    <div id="loginPanel">
+        <h2 id="loginText">Login</h2>
+        <label for="usernameBox" class="sign-inBox">Username:</label>
+        <input type="text" id="usernameBox" class="sign-inInputBox">
+        <label for="passwordBox" class="sign-inBox">Password: </label>
+        <input type="password" id="passwordBox" class="sign-inInputBox">
+        <button class="loginButton" onclick="login()">Login</button>
+    </div>
+</body>
+</html>
